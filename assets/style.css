@@ -5,7 +5,7 @@
 /* Hero Section */
 .hero-section {
   /* Gradiente de fondo oscuro; puedes ajustarlo a tu preferencia */
-  background: linear-gradient(135deg, #243b55 0%, #141e30 100%);
+  background: linear-gradient(135deg, #201c74 0%, #141e30 100%);
   min-height: 100vh; /* Para que ocupe toda la altura de la ventana */
   padding: 4rem 0;   /* Espaciado en la sección */
 }
@@ -195,7 +195,7 @@
 /* SECCIÓN DE BENEFICIOS CON PARALLAX */
 .benefits-section {
   /* Imagen de fondo con parallax */
-  background: url("https://via.placeholder.com/1920x1080") center center no-repeat;
+  background: url("/assets/img/DERECHO.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;  /* Activa el efecto parallax */
   position: relative;
@@ -204,7 +204,7 @@
 
 /* Caja de beneficios (fondo sólido dentro de la sección) */
 .bg-benefits {
-  background-color: rgba(25, 25, 112, 0.9); /* Un azul oscuro semitransparente, ajústalo a tu gusto */
+  background-color: rgba(25, 25, 112, 1); /* Un azul oscuro semitransparente, ajústalo a tu gusto */
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -499,6 +499,7 @@
     background-attachment: scroll; 
     /* Desactiva parallax en pantallas muy pequeñas 
        porque suele generar problemas de compatibilidad */
+       padding: 10px 15px;
   }
   .bg-benefits {
     margin-top: 2rem;
