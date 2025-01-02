@@ -25,14 +25,14 @@
 
 /* Estilos para el párrafo */
 .hero-section p {
-  color: #eabe3f;
+  color: #f5e393;
   max-width: 500px;
   font-weight: 700;
 }
 
 /* Botón de WhatsApp */
-.btn-whatsapp {
-  background-color: #25d366; /* Color oficial de WhatsApp */
+.btn {
+  background-color: #eabe3f; /* Color oficial de WhatsApp */
   color: #fff;
   text-decoration: none;
   border: none;
@@ -42,8 +42,8 @@
   transition: background-color 0.3s ease;
 }
 
-.btn-whatsapp:hover {
-  background-color: #22c35e;
+.btn:hover {
+  background-color: #7b4618;
   color: #fff;
 }
 
