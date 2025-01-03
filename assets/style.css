@@ -210,8 +210,8 @@
 
 
 /* SECCIÓN DE TESTIMONIOS */
-.testimonials-section {
- background-color: #dbdcde;
+.testimonials-section h3{
+  font-weight: 800;
 }
 
 /* 
