@@ -31,7 +31,7 @@
 }
 
 /* Botón de WhatsApp */
-.btn {
+.btn-hero .btn {
   background-color: #d89f1a; /* Color oficial de WhatsApp */
   color: #fff;
   text-decoration: none;
@@ -430,6 +430,7 @@
 @media (max-width: 767.98px) {
   .hero-section {
     padding: 2rem 1rem;
+    text-align: center;
   }
   .hero-section .logo{
     font-size: 0.9rem;
