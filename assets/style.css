@@ -5,7 +5,7 @@
 /* Hero Section */
 .hero-section {
   /* Gradiente de fondo oscuro; puedes ajustarlo a tu preferencia */
-  background: linear-gradient(135deg, #0e417b 0%, #141e30 100%);
+  background: linear-gradient(135deg, #00244d 0%, #141e30 100%);
   min-height: 100vh; /* Para que ocupe toda la altura de la ventana */
   padding: 4rem 0;   /* Espaciado en la sección */
 }
