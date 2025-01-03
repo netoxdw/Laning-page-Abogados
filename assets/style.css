@@ -5,7 +5,7 @@
 /* Hero Section */
 .hero-section {
   /* Gradiente de fondo oscuro; puedes ajustarlo a tu preferencia */
-  background: linear-gradient(135deg, #00244d 0%, #141e30 100%);
+  background: linear-gradient(135deg, #00244d 0%, #000000 100%);
   min-height: 100vh; /* Para que ocupe toda la altura de la ventana */
   padding: 4rem 0;   /* Espaciado en la sección */
 }
@@ -19,15 +19,15 @@
 
 /* Estilos para el título principal */
 .hero-section h1 {
-  color: #fff;
+  color: #ca9745;
   line-height: 1.2;
 }
 
 /* Estilos para el párrafo */
 .hero-section p {
-  color: #f5e393;
+  /* color: #f5e393; */
   max-width: 500px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* Botón de WhatsApp */
@@ -430,7 +430,6 @@
 @media (max-width: 767.98px) {
   .hero-section {
     padding: 2rem 1rem;
-    text-align: center;
   }
   .hero-section .logo{
     font-size: 0.9rem;
