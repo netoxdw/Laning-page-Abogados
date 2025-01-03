@@ -103,7 +103,6 @@
 
 .services-section h3{
   font-weight: 800;
-  color: #2a517a;
 }
 /* 
   Cada "service-item" contendrá la imagen y la tarjeta con contenido.
@@ -146,8 +145,8 @@
   margin-top: 1.5rem; /* Separación desde la imagen */
   margin-bottom: 0.75rem;
   font-size: 1.2rem;
-  font-weight: 600;
-  color: #336496;
+  font-weight: 700;
+  color: #00244d;
 }
 
 .service-content p {
@@ -156,39 +155,6 @@
   margin: 0;
 }
 
-/* ============================== */
-/* ANIMACIONES DE ENTRADA        */
-/* ============================== */
-
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-up {
-  opacity: 0;               /* Inicia oculta */
-  animation: fadeUp 0.8s ease forwards; /* Asigna la animación */
-}
-
-/* Retrasos diferentes para cada tarjeta */
-.delay-1 {
-  animation-delay: 0.1s;
-}
-.delay-2 {
-  animation-delay: 0.3s;
-}
-.delay-3 {
-  animation-delay: 0.5s;
-}
-.delay-4 {
-  animation-delay: 0.7s;
-}
 
 
 
@@ -204,7 +170,7 @@
 
 /* Caja de beneficios (fondo sólido dentro de la sección) */
 .bg-benefits {
-  background-color: rgba(25, 25, 112, 1); /* Un azul oscuro semitransparente, ajústalo a tu gusto */
+  background-color: rgba(25, 25, 112, 0.9); /* Un azul oscuro semitransparente, ajústalo a tu gusto */
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -496,7 +462,7 @@
 
 
   .benefits-section {
-    background-attachment: scroll; 
+    /* background-attachment: scroll;  */
     /* Desactiva parallax en pantallas muy pequeñas 
        porque suele generar problemas de compatibilidad */
        padding: 10px 15px;
