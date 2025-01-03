@@ -19,7 +19,7 @@
 
 /* Estilos para el título principal */
 .hero-section h1 {
-  color: #ca9745;
+  /* color: #ca9745; */
   line-height: 1.2;
 }
 
@@ -435,7 +435,7 @@
     font-size: 0.9rem;
   }
   .hero-section h1 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     margin-top: 45px;
     margin-bottom: 30px;
   }
