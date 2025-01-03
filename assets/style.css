@@ -154,7 +154,14 @@
   color: #555;
   margin: 0;
 }
-
+.service-content .btn{
+  background-color: #001aff;
+  width: 50%;
+  margin-top: 10px;
+}
+.service-content .btn:hover{
+  background-color: #00244d;
+}
 
 
 
@@ -320,7 +327,7 @@
 
 /* Sección de CTA */
 .cta-section {
-  background-color: #ff8000; /* Un tono naranja, ajústalo a tu gusto */
+  background-color: rgba(0, 0, 0);; /* Un tono naranja, ajústalo a tu gusto */
   min-height: 40vh; /* Ajusta la altura mínima si prefieres más/menos espacio */
   display: flex;    /* Usamos flex para centrar verticalmente el contenido */
   justify-content: center; /* Centra horizontalmente */
