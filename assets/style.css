@@ -2,6 +2,20 @@
   Estilos adicionales para tu hero section 
 */
 
+/* Navbar */
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.navbar-brand{
+  color: white;
+  margin: 0 auto;
+}
+
+
 /* Hero Section */
 .hero-section {
   /* Gradiente de fondo oscuro; puedes ajustarlo a tu preferencia */
@@ -10,12 +24,6 @@
   padding: 4rem 0;   /* Espaciado en la sección */
 }
 
-/* Logo (nombre) */
-.logo {
-  font-weight: 700;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-}
 
 /* Estilos para el título principal */
 .hero-section h1 {
