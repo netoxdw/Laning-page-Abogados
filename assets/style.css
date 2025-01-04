@@ -9,10 +9,12 @@
   left: 0;
   right: 0;
   background-color: transparent;
+  padding-top: 30px;
 }
 .navbar-brand{
   color: white;
   margin: 0 auto;
+
 }
 
 
