@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Roca Two;
+  src: url(/assets/fonts/FontsFree-Net-Roca-Two-Bold.ttf);
+}
+
+
 /* 
   Estilos adicionales para tu hero section 
 */
@@ -14,7 +20,7 @@
 .navbar-brand{
   color: white;
   margin: 0 auto;
-
+  font-family: "Roca Two";
 }
 
 
